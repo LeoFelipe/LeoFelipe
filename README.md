@@ -1,122 +1,96 @@
-# 🚀 Leonardo Felipe
+# Leonardo Felipe
 
 <p align="center">
-  <strong>Senior .NET Engineer</strong> • <strong>System Architecture & Modernization</strong> • <strong>Distributed Systems</strong>
+  <strong>Senior Software Engineer</strong> | <strong>.NET Backend</strong> | <strong>Architecture & System Modernization</strong>
 </p>
 
 <p align="center">
-  <img height="28" src="https://img.shields.io/badge/.NET-512BD4?logo=dotnet&logoColor=white"/>
-  <img height="28" src="https://img.shields.io/badge/C%23-239120?logo=csharp&logoColor=white"/>
-  <img height="28" src="https://img.shields.io/badge/AWS-232F3E?logo=amazonaws&logoColor=white"/>
-  <img height="28" src="https://img.shields.io/badge/Docker-2496ED?logo=docker&logoColor=white"/>
-  <img height="28" src="https://img.shields.io/badge/RabbitMQ-FF6600?logo=rabbitmq&logoColor=white"/>
-  <img height="28" src="https://img.shields.io/badge/PostgreSQL-336791?logo=postgresql&logoColor=white"/>
-  <img height="28" src="https://img.shields.io/badge/MongoDB-47A248?logo=mongodb&logoColor=white"/>
-  <img height="28" src="https://img.shields.io/badge/Redis-DC382D?logo=redis&logoColor=white"/>
+  <img height="26" src="https://img.shields.io/badge/.NET-512BD4?logo=dotnet&logoColor=white"/>
+  <img height="26" src="https://img.shields.io/badge/C%23-239120?logo=csharp&logoColor=white"/>
+  <img height="26" src="https://img.shields.io/badge/AWS-232F3E?logo=amazonaws&logoColor=white"/>
+  <img height="26" src="https://img.shields.io/badge/Azure-0078D4?logo=microsoftazure&logoColor=white"/>
+  <img height="26" src="https://img.shields.io/badge/Docker-2496ED?logo=docker&logoColor=white"/>
+  <img height="26" src="https://img.shields.io/badge/RabbitMQ-FF6600?logo=rabbitmq&logoColor=white"/>
+  <img height="26" src="https://img.shields.io/badge/PostgreSQL-336791?logo=postgresql&logoColor=white"/>
+  <img height="26" src="https://img.shields.io/badge/MongoDB-47A248?logo=mongodb&logoColor=white"/>
+  <img height="26" src="https://img.shields.io/badge/Redis-DC382D?logo=redis&logoColor=white"/>
 </p>
 
 ---
 
-## 👨‍💻 About Me
+## About Me
 
-I’m a Senior Backend Engineer focused on building systems that **evolve safely, scale sustainably, and reduce operational risk**.
+I am a Senior Software Engineer with 15+ years of experience building, evolving, and modernizing backend systems in corporate environments.
 
-My work goes beyond writing code — I design software with explicit architectural boundaries, aiming to:
+My work focuses on increasing a system's ability to change safely: reducing coupling, lowering operational friction, improving deployment confidence, and making architectural boundaries explicit.
 
-- Reduce **blast radius**
-- Improve **lead time and deploy confidence**
-- Lower cognitive load within teams
-- Enable safe and continuous evolution
+For me, modernization is not just upgrading frameworks. It is reducing the cost and risk of change over time.
 
-I treat modernization not as a version upgrade, but as a **strategic engineering capability**: increasing a system’s capacity to change with less friction and less risk.
+Architecture, to me, is not about adding complexity. It is about making decisions that still make sense as the system grows.
 
 ---
 
-## 🧠 Engineering Principles
+## Engineering Focus
 
-Strong systems are built around intentional design decisions:
-
-- 🔹 Clear separation between domain core and infrastructure  
-- 🔹 Hexagonal Architecture (Ports & Adapters) principles  
-- 🔹 Clean Architecture layering  
-- 🔹 Explicit domain modeling (DDD)  
-- 🔹 Event-driven boundaries and asynchronous communication  
-- 🔹 Measurable engineering outcomes (Lead Time, MTTR, Deploy Frequency)
-
-Architecture, to me, is not about patterns —  
-it’s about enabling safe change over time.
+- Backend systems with .NET, C#, ASP.NET Core, REST APIs, and gRPC
+- Architecture with DDD, Clean Architecture, Ports & Adapters, CQRS, and modular monoliths
+- Distributed systems, resilient service integration, messaging, and eventual consistency
+- Legacy modernization, architecture standards, shared libraries, and technical governance
+- Observability, automated testing, lead time, deploy frequency, MTTR, and blast radius reduction
+- Responsible use of generative AI for technical analysis, architecture exploration, and experimentation
 
 ---
 
-## 🏗 Technical Focus
+## Technical Toolbox
 
-### Backend & Architecture
-- ASP.NET Core
-- Entity Framework Core
-- MediatR
-- MassTransit
-- gRPC
-- Clean Architecture
-- Hexagonal Architecture (Ports & Adapters)
-- Domain-Driven Design (DDD)
-- CQRS
-- Event-Driven Architecture
-- Modular Monoliths & Microservices
+**Backend and architecture:** .NET, C#, ASP.NET Core, Entity Framework Core, MediatR, MassTransit, gRPC, Clean Architecture, DDD, CQRS, modular monoliths, microservices
 
-### Infrastructure & DevOps
-- AWS (ECS, ECR, SQS, Parameter Store)
-- Docker & Docker Compose
-- CI/CD Pipelines
-- Distributed systems fundamentals
-- Observability-first mindset
+**Data and messaging:** PostgreSQL, MongoDB, Redis, RabbitMQ, AWS SQS/SNS, event-driven communication
 
-### Testing & Quality
-- xUnit
-- FluentAssertions
-- WebApplicationFactory
-- Functional (E2E) Testing
-- Testcontainers
-- Integration testing in distributed environments
+**Cloud and operations:** AWS, Azure, Docker, Docker Compose, CI/CD, .NET Aspire, Datadog, distributed tracing, logs, metrics
+
+**Testing and quality:** xUnit, FluentAssertions, WebApplicationFactory, Testcontainers, unit tests, integration tests, functional tests
 
 ---
 
-## 🔨 Highlight Project
+## Featured Work
 
-### 🛒 Ecommerce Portfolio (Distributed Modular Monolith)
+### Ecommerce Portfolio API
 
-🔗 https://github.com/LeoFelipe/my-ecommerce-portfolio
+[Repository](https://github.com/LeoFelipe/my-ecommerce-portfolio) | [Architecture refactor](https://github.com/LeoFelipe/my-ecommerce-portfolio/tree/refactor/change-architecture)
 
-A production-inspired .NET solution designed to simulate enterprise architecture challenges.
+A production-inspired .NET portfolio project where I explore modular architecture, system evolution, and operational simplicity in a realistic e-commerce domain.
 
-### What it demonstrates
+Current architecture refactor highlights:
 
-- ✔ Bounded Contexts (Orders, Carts, Payments, Deliveries)  
-- ✔ Clean + Hexagonal architecture boundaries  
-- ✔ Domain Events & Eventual Consistency  
-- ✔ Asynchronous messaging with RabbitMQ + MassTransit  
-- ✔ Functional testing with Testcontainers (PostgreSQL, MongoDB, Redis, RabbitMQ)  
-- ✔ Realistic development workflow & environment orchestration  
-- ✔ Observability via .NET Aspire  
+- Single ASP.NET Core Host loading Carts, Orders, and Deliveries as in-process modules
+- Explicit module contracts with internal-by-default implementation details
+- Application, Domain, Infrastructure, Contracts, and external-service boundaries per module
+- Cross-module communication through contracts and in-process events, without internal HTTP calls
+- PostgreSQL, MongoDB, Redis, Aspire, Scalar, and Testcontainers-based tests
+- Repository standards with `.editorconfig`, Central Package Management, and shared build targets
 
-This project reflects how I approach system evolution, boundary enforcement, and architectural discipline in real-world scenarios.
-
----
-
-## 📚 Writing & Engineering Thoughts
-
-I write and share ideas about:
-
-- System modernization  
-- Reducing blast radius  
-- Architectural trade-offs  
-- Engineering metrics and delivery performance  
-- Designing systems for safe evolution  
-
-📌 You can find my articles and posts on LinkedIn.
+The goal is to demonstrate architectural clarity, testability, and a path from modular monolith to services when business boundaries justify it.
 
 ---
 
-## 📫 Contact
+## Current Interests
+
+- System modernization beyond version upgrades
+- Architecture that reduces risk, coupling, and cognitive load
+- Modular monoliths, service boundaries, and distributed systems trade-offs
+- Resilient integrations, observability, and safe delivery practices
+- Engineering decisions aligned with business impact
+
+---
+
+## Writing
+
+I share notes on system modernization, blast radius reduction, architecture trade-offs, engineering metrics, and backend design on [LinkedIn](https://www.linkedin.com/in/leonardo-felipe-b924a769/).
+
+---
+
+## Contact
 
 <p align="left">
   <a href="mailto:leonardo.fdns@gmail.com">
@@ -130,5 +104,5 @@ I write and share ideas about:
 ---
 
 <p align="center">
-  Engineering systems designed to evolve.
+  Systems should be designed to keep evolving safely.
 </p>
